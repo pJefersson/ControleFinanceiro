@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: rgb(0, 255, 68);
+  width: 100vw;
+  height: 100vh;
+
+}
+
+.forgot_password {
+  background-color: unset;
+  color: white;
+  border: none;
+}
+
+.forgot_password:active {
+  background-color: unset;
+  color: gray;
+  border: none;
+}
+
+input,
+button {
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+
+}
+
+input {
+  border: 0;
+}
+#senha, #senhaLabel{
+  display: none;
+}
+
+label {
+  text-align: center;
+  font-size: 24px;
+  color: white;
+}
+
+.entrar {
+  background-color: white;
+  border: 1px solid;
+  color: rgb(0, 255, 68);
+
+}
+
+.cadastrar {
+  background-color: unset;
+  border: 1px solid white;
+  color: white;
+
+}
+
+.entrar:hover {
+  background-color: rgb(0, 200, 68);
+  border: 1px solid white;
+  color: white;
+}
+
+.cadastrar:hover {
+  background-color: rgb(0, 200, 68);
+  border: 1px solid white;
+  color: white;
+}
+
+.cadastrar:active {
+  color: gray;
+}
+
+.entrar:active {
+  color: gray;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  margin-bottom: 50px;
+  border-bottom: 1px white solid;
+  padding: 50px;
+
+
+}
+p{
+  color: white;
+}
